@@ -1,0 +1,735 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: elearningtheme-lms 0.1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+"X-Domain: elearningtheme-lms\n"
+
+msgid "This form has expired. Go back, reload the page and try again."
+msgstr "Dieses Formular ist abgelaufen. Geh zurück, lade die Seite neu und versuch es noch einmal."
+
+msgid "Remove this section? Its lessons stay in WordPress, only the link to this course is removed."
+msgstr "Diesen Abschnitt entfernen? Die Lektionen bleiben in WordPress, nur die Verbindung zu diesem Kurs wird entfernt."
+
+msgid "This item is already in the curriculum."
+msgstr "Dieses Element ist schon im Lehrplan."
+
+msgid "Section %d"
+msgstr "Abschnitt %d"
+
+msgid "Curriculum"
+msgstr "Lehrplan"
+
+msgid "Course details"
+msgstr "Kursdetails"
+
+msgid "Lesson settings"
+msgstr "Lektionseinstellungen"
+
+msgid "Questions"
+msgstr "Fragen"
+
+msgid "Quiz"
+msgstr "Quiz"
+
+msgid "Lesson"
+msgstr "Lektion"
+
+msgid "(no title)"
+msgstr "(ohne Titel)"
+
+msgid "draft"
+msgstr "Entwurf"
+
+msgid "Free preview"
+msgstr "Kostenlose Vorschau"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Section 1"
+msgstr "Abschnitt 1"
+
+msgid "Drag lessons and quizzes to reorder them. Sections are numbered automatically."
+msgstr "Zieh Lektionen und Quiz, um sie neu zu ordnen. Abschnitte werden automatisch nummeriert."
+
+msgid "Section title"
+msgstr "Abschnittstitel"
+
+msgid "Remove section"
+msgstr "Abschnitt entfernen"
+
+msgid "Add to the last section:"
+msgstr "Zum letzten Abschnitt hinzufügen:"
+
+msgid "Choose a lesson or quiz"
+msgstr "Wähle eine Lektion oder ein Quiz"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Add section"
+msgstr "Abschnitt hinzufügen"
+
+msgid "Create a lesson"
+msgstr "Lektion erstellen"
+
+msgid "Create a quiz"
+msgstr "Quiz erstellen"
+
+msgid "Level"
+msgstr "Niveau"
+
+msgid "Beginner"
+msgstr "Einsteiger"
+
+msgid "Duration"
+msgstr "Dauer"
+
+msgid "What you’ll learn (one per line)"
+msgstr "Was du lernst (eins pro Zeile)"
+
+msgid "Course"
+msgstr "Kurs"
+
+msgid "Not in a course yet. Add it in the course’s curriculum."
+msgstr "Noch in keinem Kurs. Füg es im Lehrplan des Kurses hinzu."
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Video URL (YouTube, Vimeo or an .mp4 file)"
+msgstr "Video-URL (YouTube, Vimeo oder eine .mp4-Datei)"
+
+msgid "Free preview: anyone can open this lesson"
+msgstr "Kostenlose Vorschau: alle können diese Lektion öffnen"
+
+msgid "Question"
+msgstr "Frage"
+
+msgid "Write the question"
+msgstr "Schreib die Frage"
+
+msgid "Answers: mark the correct one. Leave unused lines empty. For true/false, use two answers."
+msgstr "Antworten: markiere die richtige. Lass ungenutzte Zeilen leer. Für Richtig/Falsch nimm zwei Antworten."
+
+msgid "Correct answer"
+msgstr "Richtige Antwort"
+
+msgid "Remove question"
+msgstr "Frage entfernen"
+
+msgid "Add question"
+msgstr "Frage hinzufügen"
+
+msgid "The correct answers are kept on the server and never sent to the student’s browser."
+msgstr "Die richtigen Antworten bleiben auf dem Server und werden nie an den Browser der Lernenden geschickt."
+
+msgid "Pass mark (%)"
+msgstr "Bestehensgrenze (%)"
+
+msgid "Students"
+msgstr "Lernende"
+
+msgid "Courses"
+msgstr "Kurse"
+
+msgid "Course header"
+msgstr "Kurskopf"
+
+msgid "Enrol box"
+msgstr "Einschreibebox"
+
+msgid "What you’ll learn"
+msgstr "Was du lernst"
+
+msgid "Course contents sidebar"
+msgstr "Seitenleiste Kursinhalt"
+
+msgid "Lesson header"
+msgstr "Lektionskopf"
+
+msgid "Lesson video"
+msgstr "Lektionsvideo"
+
+msgid "Lesson navigation"
+msgstr "Lektionsnavigation"
+
+msgid "Student dashboard"
+msgstr "Lern-Übersicht"
+
+msgid "Language switcher"
+msgstr "Sprachumschalter"
+
+msgid "Course catalog"
+msgstr "Kurskatalog"
+
+msgid "Add new course"
+msgstr "Neuen Kurs hinzufügen"
+
+msgid "Edit course"
+msgstr "Kurs bearbeiten"
+
+msgid "All courses"
+msgstr "Alle Kurse"
+
+msgid "No courses yet."
+msgstr "Noch keine Kurse."
+
+msgid "Lessons"
+msgstr "Lektionen"
+
+msgid "Add new lesson"
+msgstr "Neue Lektion hinzufügen"
+
+msgid "Edit lesson"
+msgstr "Lektion bearbeiten"
+
+msgid "Quizzes"
+msgstr "Quiz"
+
+msgid "Add new quiz"
+msgstr "Neues Quiz hinzufügen"
+
+msgid "Edit quiz"
+msgstr "Quiz bearbeiten"
+
+msgid "Course categories"
+msgstr "Kurskategorien"
+
+msgid "Course category"
+msgstr "Kurskategorie"
+
+msgid "Single choice"
+msgstr "Einfachauswahl"
+
+msgid "My learning"
+msgstr "Mein Lernen"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Languages"
+msgstr "Sprachen"
+
+msgid "Languages saved."
+msgstr "Sprachen gespeichert."
+
+msgid "Let visitors and students choose their language. The buttons, labels and emails of your school follow their choice; your course titles and lessons stay as you wrote them. The admin stays in your site language."
+msgstr "Lass Besucher und Lernende ihre Sprache wählen. Buttons, Beschriftungen und E-Mails deiner Schule folgen ihrer Wahl; Kurstitel und Lektionen bleiben so, wie du sie geschrieben hast. Der Adminbereich bleibt in der Sprache der Website."
+
+msgid "Languages on offer"
+msgstr "Angebotene Sprachen"
+
+msgid "site language"
+msgstr "Sprache der Website"
+
+msgid "Tick at least one more language to switch this on. WordPress downloads its own translation for each one, so dates are right too."
+msgstr "Wähle mindestens eine weitere Sprache, um das einzuschalten. WordPress lädt für jede seine eigene Übersetzung, damit auch die Datumsangaben stimmen."
+
+msgid "Switcher"
+msgstr "Umschalter"
+
+msgid "Show the language switcher in the site header, after the menu"
+msgstr "Sprachumschalter im Header der Website zeigen, nach dem Menü"
+
+msgid "It is always on the My learning page. To put it somewhere else, add the “Language switcher” block in the Site Editor."
+msgstr "Auf der Seite Mein Lernen ist er immer zu sehen. Für eine andere Stelle füge im Website-Editor den Block „Sprachumschalter“ ein."
+
+msgid "You are not allowed to do this."
+msgstr "Du darfst das nicht tun."
+
+msgid "You get this email because you have an account at %s."
+msgstr "Du bekommst diese E-Mail, weil du ein Konto bei %s hast."
+
+msgid "You’re enrolled: %s"
+msgstr "Du bist eingeschrieben: %s"
+
+msgid "Your first lesson of %s is ready."
+msgstr "Deine erste Lektion von %s ist bereit."
+
+msgid "Enrolment confirmed"
+msgstr "Einschreibung bestätigt"
+
+msgid "Welcome, %s."
+msgstr "Willkommen, %s."
+
+msgid "You’re now enrolled in %s. Your progress is saved as you go, so you can stop after any lesson and pick up where you left off."
+msgstr "Du bist jetzt in %s eingeschrieben. Dein Fortschritt wird laufend gespeichert, du kannst also nach jeder Lektion aufhören und später weitermachen."
+
+msgid "Start the first lesson"
+msgstr "Starte die erste Lektion"
+
+msgid "Course page"
+msgstr "Kursseite"
+
+msgid "Find your next course"
+msgstr "Finde deinen nächsten Kurs"
+
+msgid "You completed %s"
+msgstr "Du hast %s abgeschlossen"
+
+msgid "Every lesson done. Well done."
+msgstr "Alle Lektionen erledigt. Gut gemacht."
+
+msgid "Course completed"
+msgstr "Kurs abgeschlossen"
+
+msgid "Well done, %s."
+msgstr "Gut gemacht, %s."
+
+msgid "You finished every lesson of %s. That takes patience, and it shows."
+msgstr "Du hast alle Lektionen von %s abgeschlossen. Das braucht Geduld, und man sieht es."
+
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+msgid "Someone asked to reset your password."
+msgstr "Jemand hat angefordert, dein Passwort zurückzusetzen."
+
+msgid "Password reset"
+msgstr "Passwort zurücksetzen"
+
+msgid "Choose a new password"
+msgstr "Wähle ein neues Passwort"
+
+msgid "Someone asked for a new password for the account %s. If that was you, use the button below. The link works once."
+msgstr "Jemand hat ein neues Passwort für das Konto %s angefordert. Wenn du das warst, nutze den Button unten. Der Link funktioniert nur einmal."
+
+msgid "Set a new password"
+msgstr "Neues Passwort festlegen"
+
+msgid "If you didn’t ask for this, ignore this email; your password stays the same."
+msgstr "Wenn du das nicht angefordert hast, ignoriere diese E-Mail; dein Passwort bleibt gleich."
+
+msgid "Your account at %s is ready."
+msgstr "Dein Konto bei %s ist bereit."
+
+msgid "Your account"
+msgstr "Dein Konto"
+
+msgid "An account was made for you at %s. Choose a password to log in and start learning."
+msgstr "Für dich wurde ein Konto bei %s angelegt. Wähle ein Passwort, um dich anzumelden und loszulernen."
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Choose your password"
+msgstr "Wähle dein Passwort"
+
+msgid "The link works once. If it has expired, use “Lost your password?” on the login page."
+msgstr "Der Link funktioniert nur einmal. Wenn er abgelaufen ist, nutze „Passwort vergessen?“ auf der Anmeldeseite."
+
+msgid "Your account at %s"
+msgstr "Dein Konto bei %s"
+
+msgid "Teacher"
+msgstr "Lehrkraft"
+
+msgid "%1$d, including %2$d quizzes"
+msgstr "%1$d, davon %2$d Quiz"
+
+msgid "Course completed."
+msgstr "Kurs abgeschlossen."
+
+msgid "You finished every lesson of %s. Well done."
+msgstr "Du hast alle Lektionen von %s abgeschlossen. Gut gemacht."
+
+msgid "%1$d of %2$d complete · %3$d%%"
+msgstr "%1$d von %2$d erledigt · %3$d%%"
+
+msgid "Course progress"
+msgstr "Kursfortschritt"
+
+msgid "Review the course"
+msgstr "Kurs wiederholen"
+
+msgid "Continue where you left off"
+msgstr "Mach weiter, wo du aufgehört hast"
+
+msgid "Free"
+msgstr "Kostenlos"
+
+msgid "Enrol for free"
+msgstr "Kostenlos einschreiben"
+
+msgid "Log in to enrol"
+msgstr "Melde dich an, um dich einzuschreiben"
+
+msgid "New here? %s"
+msgstr "Neu hier? %s"
+
+msgid "Create a free account"
+msgstr "Leg ein kostenloses Konto an"
+
+msgid "Watch a free preview lesson"
+msgstr "Kostenlose Vorschau-Lektion ansehen"
+
+msgid "Lessons are on their way."
+msgstr "Die Lektionen sind unterwegs."
+
+msgid "Preview"
+msgstr "Vorschau"
+
+msgid "Locked"
+msgstr "Gesperrt"
+
+msgid "Lesson %1$s of %2$d"
+msgstr "Lektion %1$s von %2$d"
+
+msgid "Course contents"
+msgstr "Kursinhalt"
+
+msgid "Reading"
+msgstr "Lesen"
+
+msgid "Open the video"
+msgstr "Video öffnen"
+
+msgid "Enrol in the course to open this lesson."
+msgstr "Schreib dich in den Kurs ein, um diese Lektion zu öffnen."
+
+msgid "Log in and enrol in the course to open this lesson."
+msgstr "Melde dich an und schreib dich in den Kurs ein, um diese Lektion zu öffnen."
+
+msgid "Go to the course page"
+msgstr "Zur Kursseite"
+
+msgid "This lesson is locked"
+msgstr "Diese Lektion ist gesperrt"
+
+msgid "Mark as complete"
+msgstr "Als erledigt markieren"
+
+msgid "← Previous"
+msgstr "← Zurück"
+
+msgid "Next →"
+msgstr "Weiter →"
+
+msgid "This quiz has no questions yet."
+msgstr "Dieses Quiz hat noch keine Fragen."
+
+msgid "Pass mark"
+msgstr "Bestehensgrenze"
+
+msgid "%1$d of %2$d"
+msgstr "%1$d von %2$d"
+
+msgid "Time"
+msgstr "Zeit"
+
+msgid "No limit"
+msgstr "Unbegrenzt"
+
+msgid "Attempts"
+msgstr "Versuche"
+
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+msgid "Enrol in the course to take this quiz and save your score."
+msgstr "Schreib dich in den Kurs ein, um dieses Quiz zu machen und dein Ergebnis zu speichern."
+
+msgid "You have used all your attempts for this quiz."
+msgstr "Du hast alle Versuche für dieses Quiz aufgebraucht."
+
+msgid "Start the quiz first, then answer the questions."
+msgstr "Starte zuerst das Quiz und beantworte dann die Fragen."
+
+msgid "Question %1$d of %2$d"
+msgstr "Frage %1$d von %2$d"
+
+msgid "Answers are checked on the server. You can try as often as you like."
+msgstr "Die Antworten werden auf dem Server geprüft. Du kannst es so oft versuchen, wie du willst."
+
+msgid "Check my answers"
+msgstr "Antworten prüfen"
+
+msgid "Waiting for review"
+msgstr "Wartet auf Bewertung"
+
+msgid "Your answers are with your teacher"
+msgstr "Deine Antworten liegen bei deiner Lehrkraft"
+
+msgid "The choice questions are already checked: %1$d of %2$d correct so far. Your teacher reviews the written answers, and you get an email when the result is ready."
+msgstr "Die Auswahlfragen sind schon geprüft: bisher %1$d von %2$d richtig. Deine Lehrkraft bewertet die schriftlichen Antworten, und du bekommst eine E-Mail, wenn das Ergebnis da ist."
+
+msgid "Time ran out"
+msgstr "Die Zeit ist abgelaufen"
+
+msgid "The time limit passed before the answers were sent, so this attempt is not counted as passed."
+msgstr "Die Zeit ist abgelaufen, bevor die Antworten gesendet wurden, deshalb gilt dieser Versuch nicht als bestanden."
+
+msgid "Passed"
+msgstr "Bestanden"
+
+msgid "Not passed yet"
+msgstr "Noch nicht bestanden"
+
+msgid "%1$d of %2$d correct"
+msgstr "%1$d von %2$d richtig"
+
+msgid "You need %d correct answers to pass."
+msgstr "Du brauchst %d richtige Antworten zum Bestehen."
+
+msgid "Correct"
+msgstr "Richtig"
+
+msgid "Incorrect"
+msgstr "Falsch"
+
+msgid "none"
+msgstr "keine"
+
+msgid "Your answer: %s"
+msgstr "Deine Antwort: %s"
+
+msgid "Correct answer: %s"
+msgstr "Richtige Antwort: %s"
+
+msgid "(no answer)"
+msgstr "(keine Antwort)"
+
+msgid "Teacher’s feedback:"
+msgstr "Rückmeldung der Lehrkraft:"
+
+msgid "Back to the course"
+msgstr "Zurück zum Kurs"
+
+msgid "Try again"
+msgstr "Noch einmal versuchen"
+
+msgid "Log in to see your courses and progress."
+msgstr "Melde dich an, um deine Kurse und deinen Fortschritt zu sehen."
+
+msgid "Log in"
+msgstr "Anmelden"
+
+msgid "Good to see you, %s."
+msgstr "Schön, dich zu sehen, %s."
+
+msgid "You haven’t enrolled in a course yet."
+msgstr "Du bist noch in keinem Kurs eingeschrieben."
+
+msgid "Browse courses"
+msgstr "Kurse ansehen"
+
+msgid "Continue learning"
+msgstr "Weiterlernen"
+
+msgid "%1$d of %2$d lessons"
+msgstr "%1$d von %2$d Lektionen"
+
+msgid "Continue lesson"
+msgstr "Lektion fortsetzen"
+
+msgid "In progress"
+msgstr "In Arbeit"
+
+msgid "Not started"
+msgstr "Nicht begonnen"
+
+msgid "Review"
+msgstr "Wiederholen"
+
+msgid "Continue"
+msgstr "Weiter"
+
+msgid "Start course"
+msgstr "Kurs starten"
+
+msgid "Completed %s"
+msgstr "Abgeschlossen am %s"
+
+msgid "My courses"
+msgstr "Meine Kurse"
+
+msgid "Account details"
+msgstr "Kontodaten"
+
+msgid "Log out"
+msgstr "Abmelden"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Search courses"
+msgstr "Kurse durchsuchen"
+
+msgid "No courses match."
+msgstr "Keine passenden Kurse."
+
+msgid "Try another word or category."
+msgstr "Versuch ein anderes Wort oder eine andere Kategorie."
+
+msgid "New courses will appear here."
+msgstr "Neue Kurse erscheinen hier."
+
+msgid "No. %s"
+msgstr "Nr. %s"
+
+msgid "%d question"
+msgid_plural "%d questions"
+msgstr[0] "%d Frage"
+msgstr[1] "%d Fragen"
+
+msgid "%d lesson"
+msgid_plural "%d lessons"
+msgstr[0] "%d Lektion"
+msgstr[1] "%d Lektionen"
+
+msgid "You are not allowed to manage the students of this course."
+msgstr "Du darfst die Teilnehmenden dieses Kurses nicht verwalten."
+
+msgid "Student added. They got the enrolment email and can start straight away."
+msgstr "Teilnehmer hinzugefügt. Die Einschreibungs-E-Mail ist unterwegs, es kann sofort losgehen."
+
+msgid "Student removed from the course. Their progress is kept, in case you add them again."
+msgstr "Teilnehmer aus dem Kurs entfernt. Der Fortschritt bleibt erhalten, falls du ihn wieder hinzufügst."
+
+msgid "No user with the email or username “%s”. Create the account under Users › Add New User first, then add it here."
+msgstr "Kein Benutzer mit der E-Mail-Adresse oder dem Benutzernamen „%s“. Leg das Konto zuerst unter Benutzer › Neues Benutzerkonto hinzufügen an und füg es dann hier hinzu."
+
+msgid "Progress reset. The student starts the course again from the first lesson; their earlier quiz attempts no longer count."
+msgstr "Fortschritt zurückgesetzt. Die Person beginnt den Kurs wieder mit der ersten Lektion; frühere Quizversuche zählen nicht mehr."
+
+msgid "This person is already enrolled in the course."
+msgstr "Diese Person ist schon in den Kurs eingeschrieben."
+
+msgid "Something went wrong. Please try again."
+msgstr "Etwas ist schiefgelaufen. Bitte versuch es noch einmal."
+
+msgid "Add New User"
+msgstr "Neues Benutzerkonto hinzufügen"
+
+msgid "The file is too large. Split it into files of up to 2 MB."
+msgstr "Die Datei ist zu groß. Teile sie in Dateien bis 2 MB auf."
+
+msgid "Please choose a CSV file (.csv)."
+msgstr "Bitte wähle eine CSV-Datei (.csv)."
+
+msgid "Skipped lines without a valid email address or account: %s."
+msgstr "Übersprungene Zeilen ohne gültige E-Mail-Adresse oder Konto: %s."
+
+msgid "No courses yet. Create a course first, then manage its students here."
+msgstr "Noch keine Kurse. Erstell zuerst einen Kurs und verwalte dann hier die Teilnehmenden."
+
+msgid "Show"
+msgstr "Anzeigen"
+
+msgid "Add a student"
+msgstr "Teilnehmer hinzufügen"
+
+msgid "Email or username"
+msgstr "E-Mail oder Benutzername"
+
+msgid "Add to course"
+msgstr "Zum Kurs hinzufügen"
+
+msgid "The person needs an account on this site. Students you add here get the enrolment email, and paid courses are opened without payment."
+msgstr "Die Person braucht ein Konto auf dieser Website. Wer hier hinzugefügt wird, bekommt die Einschreibungs-E-Mail, und kostenpflichtige Kurse werden ohne Zahlung freigeschaltet."
+
+msgid "Import students from a CSV file"
+msgstr "Teilnehmende aus einer CSV-Datei importieren"
+
+msgid "One student per line: an email address and, if you like, a name, separated by a comma or a semicolon. A header line is fine. You can save this from Excel or Google Sheets as CSV."
+msgstr "Eine Person pro Zeile: eine E-Mail-Adresse und, wenn du willst, ein Name, getrennt durch Komma oder Semikolon. Eine Kopfzeile ist in Ordnung. Du kannst die Datei aus Excel oder Google Sheets als CSV speichern."
+
+msgid "CSV file"
+msgstr "CSV-Datei"
+
+msgid "Create accounts for new email addresses and email them a link to set a password"
+msgstr "Konten für neue E-Mail-Adressen anlegen und ihnen einen Link zum Festlegen des Passworts schicken"
+
+msgid "Import and enrol"
+msgstr "Importieren und einschreiben"
+
+msgid "Search students"
+msgstr "Teilnehmende suchen"
+
+msgid "No students match your search."
+msgstr "Keine Teilnehmenden passen zu deiner Suche."
+
+msgid "No students in this course yet."
+msgstr "Noch keine Teilnehmenden in diesem Kurs."
+
+msgid "Student"
+msgstr "Teilnehmer"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Enrolled"
+msgstr "Eingeschrieben"
+
+msgid "Progress"
+msgstr "Fortschritt"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "%1$d of %2$d · %3$d%%"
+msgstr "%1$d von %2$d · %3$d %%"
+
+msgid "Reset this student’s progress? They will take every lesson and quiz again."
+msgstr "Fortschritt dieser Person zurücksetzen? Sie macht dann alle Lektionen und Quizze noch einmal."
+
+msgid "Reset the progress of %s"
+msgstr "Fortschritt von %s zurücksetzen"
+
+msgid "Reset progress"
+msgstr "Fortschritt zurücksetzen"
+
+msgid "Remove %s from the course"
+msgstr "%s aus dem Kurs entfernen"
+
+msgid "%d student added to the course."
+msgid_plural "%d students added to the course."
+msgstr[0] "%d Person zum Kurs hinzugefügt."
+msgstr[1] "%d Personen zum Kurs hinzugefügt."
+
+msgid "%d new account was created; we emailed a link to set a password."
+msgid_plural "%d new accounts were created; we emailed each a link to set a password."
+msgstr[0] "%d neues Konto wurde angelegt; wir haben einen Link zum Festlegen des Passworts geschickt."
+msgstr[1] "%d neue Konten wurden angelegt; alle haben einen Link zum Festlegen des Passworts bekommen."
+
+msgid "%d was already enrolled."
+msgid_plural "%d were already enrolled."
+msgstr[0] "%d war schon eingeschrieben."
+msgstr[1] "%d waren schon eingeschrieben."
+
+msgid "%d student"
+msgid_plural "%d students"
+msgstr[0] "%d Teilnehmer"
+msgstr[1] "%d Teilnehmende"
+
+msgid "Single course"
+msgstr "Einzelner Kurs"
+
+msgid "A course page with the enrol box and the curriculum."
+msgstr "Eine Kursseite mit Einschreibebox und Lehrplan."
+
+msgid "Single lesson"
+msgstr "Einzelne Lektion"
+
+msgid "A lesson with the course contents, video, text and navigation."
+msgstr "Eine Lektion mit Kursinhalt, Video, Text und Navigation."
+
+msgid "Single quiz"
+msgstr "Einzelnes Quiz"
+
+msgid "A quiz with the course contents and the questions."
+msgstr "Ein Quiz mit Kursinhalt und Fragen."
+
+msgid "All courses, with categories and search."
+msgstr "Alle Kurse, mit Kategorien und Suche."

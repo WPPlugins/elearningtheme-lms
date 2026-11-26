@@ -1,0 +1,188 @@
+/* eLearningTheme LMS front end. Token-based, so it follows the active design;
+   :where() keeps specificity low so themes can restyle anything. */
+:root {
+	--eltlms-ink: var(--wp--preset--color--ink, #141414);
+	--eltlms-muted: var(--wp--preset--color--muted, #55534d);
+	--eltlms-line: var(--wp--preset--color--line, #bdb8aa);
+	--eltlms-surface: var(--wp--preset--color--surface, #f4f2ec);
+	--eltlms-base: var(--wp--preset--color--base, #fff);
+	--eltlms-accent: var(--wp--preset--color--accent, #765410);
+	--eltlms-accent-ink: var(--wp--preset--color--accent-ink, #fff);
+	--eltlms-mono: var(--wp--preset--font-family--mono, ui-monospace, monospace);
+	--eltlms-radius: var(--wp--custom--radius, 0);
+	--eltlms-bw: var(--wp--custom--border-width, 1px);
+	--eltlms-ok: #2e6534;
+	--eltlms-bad: #a3261c;
+}
+:where(.eltlms-small) { font-size: var(--wp--preset--font-size--small, .875rem); color: var(--eltlms-muted); }
+:where(.eltlms-mono) { font-family: var(--eltlms-mono); }
+.eltlms-icon { flex: none; vertical-align: -0.15em; }
+
+/* Buttons (inherit the theme's button element style) */
+:where(.eltlms-btn) { box-sizing: border-box; max-width: 100%; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 48px; text-decoration: none; cursor: pointer; }
+:where(.eltlms-btn.is-outline) { background: transparent; color: var(--eltlms-ink); }
+.eltlms-btn-small { min-height: 44px; display: inline-flex; align-items: center; padding: 0 1rem; border: var(--eltlms-bw) solid var(--eltlms-ink); border-radius: var(--eltlms-radius); color: var(--eltlms-ink); text-decoration: none; font-weight: 500; white-space: nowrap; }
+
+/* Progress bar */
+.eltlms-bar { height: 8px; border: var(--eltlms-bw) solid var(--eltlms-ink); border-radius: var(--eltlms-radius); background: var(--eltlms-base); overflow: hidden; }
+.eltlms-bar > span { display: block; height: 100%; background: var(--eltlms-accent); }
+
+/* Course page */
+.eltlms-course-header > * { margin-block: 0 1rem; }
+.eltlms-crumb a { color: inherit; }
+:where(.eltlms-enrol) { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 1.5rem; }
+.eltlms-enrol > * { margin: 0; }
+.eltlms-enrol__price { font-size: var(--wp--preset--font-size--x-large, 2rem); font-weight: 700; line-height: 1; }
+.eltlms-enrol form .eltlms-btn, .eltlms-enrol > .eltlms-btn { width: 100%; }
+.eltlms-enrol__status { font-family: var(--eltlms-mono); font-size: .8125rem; }
+.eltlms-done { display: grid; grid-template-columns: auto 1fr; gap: .25rem 1rem; padding-bottom: 1rem; border-bottom: var(--eltlms-bw) solid var(--eltlms-line); color: var(--eltlms-ok); }
+.eltlms-done > p { grid-column: 2; margin: 0; color: var(--eltlms-ink); }
+.eltlms-done__title { font-weight: 700; font-size: var(--wp--preset--font-size--large, 1.25rem); }
+.eltlms-learn, .eltlms-course-curriculum { margin-top: var(--wp--preset--spacing--50, 2.5rem); }
+.eltlms-empty, .eltlms-empty-state { color: var(--eltlms-muted); }
+.eltlms-empty-state { padding: var(--wp--preset--spacing--50, 2.5rem) 0; border-top: var(--eltlms-bw) solid var(--eltlms-ink); }
+.eltlms-empty-state__title { font-weight: 700; color: var(--eltlms-ink); font-size: var(--wp--preset--font-size--large, 1.25rem); }
+
+/* Curriculum list states (word + icon, never colour alone) */
+.eltlms-curriculum ol { counter-reset: none; }
+.eltlms-item { position: relative; }
+.eltlms-item__body { min-width: 0; }
+.eltlms-item .elt-curriculum__title { color: inherit; }
+.eltlms-item.is-current { background: var(--eltlms-surface); box-shadow: inset 3px 0 0 var(--eltlms-accent); }
+.eltlms-item.is-current .elt-curriculum__title { font-weight: 700; text-decoration: none; }
+.eltlms-item.is-locked .elt-curriculum__title { color: var(--eltlms-muted); }
+.eltlms-state { display: inline-flex; align-items: center; gap: .25rem; }
+.eltlms-state--done { color: var(--eltlms-ok); }
+.eltlms-state--locked { color: var(--eltlms-muted); }
+
+/* Lesson page: sidebar + main; the sidebar becomes a <details> panel on small screens */
+.eltlms-lesson { display: grid; grid-template-columns: minmax(0, 1fr); }
+.eltlms-lesson > * { margin: 0 !important; }
+.eltlms-side { display: none; }
+.eltlms-curriculum.is-compact .elt-curriculum li { grid-template-columns: 2.25rem minmax(0, 1fr); gap: .15rem .75rem; font-size: var(--wp--preset--font-size--small, .875rem); }
+.eltlms-curriculum.is-compact .elt-curriculum__meta { grid-column: 2; display: flex; flex-wrap: wrap; gap: .25rem .5rem; white-space: normal; }
+.eltlms-side__head { display: flex; flex-direction: column; gap: .6rem; padding: 1.25rem 1.5rem; border-bottom: var(--eltlms-bw) solid var(--eltlms-line); }
+.eltlms-side__head > * { margin: 0; }
+.eltlms-side__course { font-weight: 700; line-height: 1.3; }
+.eltlms-side__course a { color: inherit; text-decoration: none; }
+.eltlms-side .eltlms-curriculum, .eltlms-mobile-contents .eltlms-curriculum { padding: 0 1.5rem 1.5rem; }
+.eltlms-mobile-contents { margin: 1rem clamp(1rem, 4vw, 2.5rem) 0; border: var(--eltlms-bw) solid var(--eltlms-ink); border-radius: var(--eltlms-radius); background: var(--eltlms-surface); }
+.eltlms-mobile-contents summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 56px; padding: .6rem 1rem; cursor: pointer; list-style: none; }
+.eltlms-mobile-contents summary::-webkit-details-marker { display: none; }
+.eltlms-mobile-contents summary > span { display: flex; flex-direction: column; }
+.eltlms-mobile-contents[open] summary .eltlms-icon { transform: rotate(180deg); }
+.eltlms-lesson__main { width: 100%; max-width: calc(720px + 2 * clamp(1rem, 4vw, 2.5rem)); margin-inline: auto !important; padding: var(--wp--preset--spacing--50, 2.5rem) clamp(1rem, 4vw, 2.5rem) var(--wp--preset--spacing--60, 4rem); box-sizing: border-box; }
+.eltlms-lesson__main > * + * { margin-top: var(--wp--preset--spacing--40, 1.5rem); }
+@media (min-width: 960px) {
+	.eltlms-lesson { grid-template-columns: 340px minmax(0, 1fr); align-items: start; }
+	.eltlms-side { display: block; position: sticky; top: 0; max-height: 100vh; overflow-y: auto; border-right: var(--eltlms-bw) solid var(--eltlms-line); }
+	.admin-bar .eltlms-side { top: 32px; max-height: calc(100vh - 32px); }
+	.eltlms-mobile-contents { display: none; }
+}
+.eltlms-item-header > * { margin: 0 0 .5rem; }
+.eltlms-item-meta { display: flex; align-items: center; gap: .4rem; color: var(--eltlms-muted); font-size: var(--wp--preset--font-size--small, .875rem); }
+.eltlms-item-cover { margin: 1.5rem 0 0; aspect-ratio: 21 / 9; overflow: hidden; border-radius: var(--eltlms-radius); }
+.eltlms-item-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.eltlms-video { position: relative; aspect-ratio: 16 / 9; background: #1c1b19; border-radius: var(--eltlms-radius); overflow: hidden; }
+.eltlms-video iframe, .eltlms-video video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Locked state */
+.eltlms-locked { display: grid; grid-template-columns: auto 1fr; gap: 1rem; padding: var(--wp--preset--spacing--40, 1.5rem); border: var(--eltlms-bw) solid var(--eltlms-ink); border-left-width: 4px; border-radius: var(--eltlms-radius); background: var(--eltlms-surface); }
+.eltlms-locked > div > * { margin: 0 0 .75rem; }
+.eltlms-locked__title { font-weight: 700; font-size: var(--wp--preset--font-size--large, 1.25rem); }
+
+/* Mark complete + previous / next */
+.eltlms-nav { display: flex; flex-direction: column; gap: var(--wp--preset--spacing--40, 1.5rem); padding-top: var(--wp--preset--spacing--40, 1.5rem); border-top: var(--eltlms-bw) solid var(--eltlms-line); }
+.eltlms-complete { margin: 0; }
+.eltlms-complete.is-done { display: inline-flex; align-items: center; gap: .4rem; font-weight: 600; color: var(--eltlms-ok); }
+.eltlms-pager { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: var(--eltlms-bw) solid var(--eltlms-ink); }
+.eltlms-pn { display: flex; flex-direction: column; gap: .25rem; padding: 1rem 1rem 1rem 0; min-height: 72px; color: inherit; text-decoration: none; }
+.eltlms-pn--next { grid-column: 2; align-items: flex-end; text-align: right; padding: 1rem 0 1rem 1rem; border-left: var(--eltlms-bw) solid var(--eltlms-line); }
+.eltlms-pn:hover .eltlms-pn__title { text-decoration: underline; }
+.eltlms-pn__label { font-family: var(--eltlms-mono); font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--eltlms-muted); }
+.eltlms-pn__title { font-weight: 500; }
+@media (max-width: 559px) {
+	.eltlms-pager { grid-template-columns: minmax(0, 1fr); }
+	.eltlms-pn--next { grid-column: 1; border-left: 0; border-top: var(--eltlms-bw) solid var(--eltlms-line); padding-left: 0; }
+}
+
+/* Quiz */
+.eltlms-quiz > * + * { margin-top: var(--wp--preset--spacing--40, 1.5rem); }
+.eltlms-question { margin: 0 0 1.5rem; padding: 0; border: 0; }
+.eltlms-question legend { display: flex; flex-direction: column; gap: .25rem; margin-bottom: .75rem; padding: 0; }
+.eltlms-question__n { font-family: var(--eltlms-mono); font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--eltlms-muted); }
+.eltlms-question__q { font-weight: 700; font-size: var(--wp--preset--font-size--large, 1.25rem); }
+.eltlms-option { display: flex; align-items: center; gap: .75rem; min-height: 52px; margin: 0 0 .5rem; padding: .5rem 1rem; border: var(--eltlms-bw) solid var(--eltlms-line); border-radius: var(--eltlms-radius); background: var(--eltlms-base); cursor: pointer; }
+.eltlms-option:hover { border-color: var(--eltlms-ink); }
+.eltlms-option:has(input:checked) { border-color: var(--eltlms-accent); box-shadow: inset 0 0 0 1px var(--eltlms-accent); background: var(--eltlms-surface); }
+.eltlms-option input { width: 1.1rem; height: 1.1rem; accent-color: var(--eltlms-accent); }
+.eltlms-result__badge { display: inline-flex; align-items: center; gap: .4rem; padding: .25rem .6rem; border: var(--eltlms-bw) solid currentColor; border-radius: var(--eltlms-radius); font-weight: 700; }
+.eltlms-result.is-passed .eltlms-result__badge { color: var(--eltlms-ok); }
+.eltlms-result.is-failed .eltlms-result__badge { color: var(--eltlms-bad); }
+.eltlms-review { padding-left: 1.25rem; }
+.eltlms-review li { padding: .75rem 0; border-top: var(--eltlms-bw) solid var(--eltlms-line); }
+.eltlms-review p { margin: 0 0 .25rem; }
+.eltlms-review__q { font-weight: 600; }
+.eltlms-review .is-correct .eltlms-review__a { color: var(--eltlms-ok); }
+.eltlms-review .is-wrong .eltlms-review__a { color: var(--eltlms-bad); }
+.eltlms-review__fix { color: var(--eltlms-muted); }
+/* Pending review, time ran out, written answers, notices (0.1.7). Never colour alone: icon + word too. */
+.eltlms-result.is-pending .eltlms-result__badge, .eltlms-result.is-expired .eltlms-result__badge { color: var(--eltlms-ink); }
+.eltlms-review .is-pending .eltlms-review__a { color: var(--eltlms-muted); }
+.eltlms-review__text { margin: .4rem 0; padding: .6rem .9rem; border-left: 3px solid var(--eltlms-line); background: var(--eltlms-surface); white-space: normal; overflow-wrap: anywhere; }
+.eltlms-review__feedback { padding: .4rem .6rem; border-radius: var(--eltlms-radius); background: var(--eltlms-surface); }
+.eltlms-notice { display: flex; align-items: center; gap: .5rem; padding: .6rem .9rem; border: var(--eltlms-bw) solid var(--eltlms-line); border-radius: var(--eltlms-radius); background: var(--eltlms-surface); }
+.eltlms-answer-text { display: block; width: 100%; min-height: 9rem; box-sizing: border-box; padding: .7rem .9rem; border: var(--eltlms-bw) solid var(--eltlms-line); border-radius: var(--eltlms-radius); background: var(--eltlms-base); color: var(--eltlms-ink); font: inherit; line-height: 1.5; resize: vertical; }
+.eltlms-answer-text:focus { border-color: var(--eltlms-accent); }
+
+/* Dashboard */
+.eltlms-dash > * + * { margin-top: var(--wp--preset--spacing--50, 2.5rem); }
+.eltlms-continue { display: flex; flex-direction: column; gap: .5rem; }
+.eltlms-continue > * { margin: 0; }
+.eltlms-continue__title { font-size: var(--wp--preset--font-size--large, 1.25rem); font-weight: 700; }
+.eltlms-mycourses, .eltlms-completed { list-style: none; padding: 0; margin: 0; border-top: var(--eltlms-bw) solid var(--eltlms-ink); }
+.eltlms-mycourse { display: grid; grid-template-columns: minmax(0, 2fr) minmax(80px, 1fr) auto auto; gap: .75rem 1.25rem; align-items: center; padding: 1rem 0; border-bottom: var(--eltlms-bw) solid var(--eltlms-line); }
+.eltlms-mycourse > div { display: flex; flex-direction: column; }
+.eltlms-mycourse.has-thumb { grid-template-columns: 96px minmax(0, 2fr) minmax(80px, 1fr) auto auto; }
+.eltlms-mycourse__thumb { display: block; aspect-ratio: 3 / 2; overflow: hidden; border-radius: min(var(--eltlms-radius), 8px); }
+.eltlms-mycourse__thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.eltlms-mycourse__title { font-weight: 600; color: inherit; text-decoration: none; }
+.eltlms-mycourse__status { font-family: var(--eltlms-mono); font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--eltlms-muted); display: inline-flex; gap: .3rem; align-items: center; }
+.eltlms-mycourse__status.is-done { color: var(--eltlms-ok); }
+@media (max-width: 699px) { .eltlms-mycourse { grid-template-columns: minmax(0, 1fr) auto; } .eltlms-mycourse .eltlms-bar { grid-column: 1 / -1; grid-row: 2; } .eltlms-mycourse.has-thumb { grid-template-columns: 64px minmax(0, 1fr) auto; } .eltlms-mycourse__thumb { grid-row: span 2; align-self: start; } .eltlms-mycourse.has-thumb .eltlms-bar { grid-column: 2 / -1; } .eltlms-mycourse.has-thumb .eltlms-btn-small { grid-column: 2 / -1; justify-self: start; } }
+.eltlms-completed li { padding: .75rem 0; border-bottom: var(--eltlms-bw) solid var(--eltlms-line); display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+.eltlms-account { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; font-size: var(--wp--preset--font-size--small, .875rem); }
+.eltlms-account > p { display: flex; align-items: center; gap: .4rem; margin: 0; }
+
+/* Language switcher: a native disclosure, no script */
+.eltlms-lang { position: relative; font-size: var(--wp--preset--font-size--small, .875rem); line-height: 1.3; }
+.eltlms-lang > summary { display: inline-flex; align-items: center; gap: .4rem; min-height: 44px; padding: 0 .25rem; cursor: pointer; list-style: none; white-space: nowrap; }
+.eltlms-lang > summary::-webkit-details-marker { display: none; }
+.eltlms-lang > summary:focus-visible { outline: 2px solid var(--eltlms-accent); outline-offset: 2px; }
+.eltlms-lang[open] > summary .eltlms-icon--chevron { transform: rotate(180deg); }
+.eltlms-lang > ul { position: absolute; right: 0; top: 100%; z-index: 30; min-width: 11rem; margin: 0; padding: .35rem; list-style: none; background: var(--eltlms-surface); color: var(--eltlms-ink); border: var(--eltlms-bw) solid var(--eltlms-ink); border-radius: var(--eltlms-radius); box-shadow: 0 8px 24px rgba(0, 0, 0, .12); }
+.eltlms-lang > ul a { display: flex; align-items: center; min-height: 40px; padding: 0 .75rem; border-radius: calc(var(--eltlms-radius) / 2); color: inherit; text-decoration: none; }
+.eltlms-lang > ul a:hover, .eltlms-lang > ul a:focus-visible { background: var(--eltlms-base); }
+.eltlms-lang > ul a[aria-current] { font-weight: 700; }
+.eltlms-lang > ul a[aria-current]::after { content: "✓"; margin-left: auto; padding-left: .75rem; color: var(--eltlms-accent); }
+@media (max-width: 699px) { .eltlms-lang > ul { position: static; margin: .25rem 0 .5rem; box-shadow: none; } }
+/* In a header: the menu keeps to the right, the switcher follows it. */
+.wp-block-navigation:has(+ .wp-block-elearningtheme-lms-language-switcher) { margin-left: auto; }
+
+/* Catalog */
+.eltlms-filters { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; margin-bottom: var(--wp--preset--spacing--40, 1.5rem); }
+.eltlms-chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+.eltlms-chip { min-height: 44px; display: inline-flex; align-items: center; padding: 0 1rem; border: var(--eltlms-bw) solid var(--eltlms-line); border-radius: var(--eltlms-radius); color: var(--eltlms-ink); text-decoration: none; font-size: var(--wp--preset--font-size--small, .875rem); }
+.eltlms-chip.is-on { background: var(--eltlms-ink); border-color: var(--eltlms-ink); color: var(--eltlms-base); }
+.eltlms-search input { min-height: 44px; min-width: min(100%, 18rem); }
+.eltlms-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: var(--wp--preset--spacing--40, 1.5rem); }
+.eltlms-grid .elt-course-card__img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; padding: 0 !important; border-bottom: var(--eltlms-bw) solid var(--eltlms-ink); }
+:where(.eltlms-grid .elt-course-card) { display: flex; flex-direction: column; border: var(--eltlms-bw) solid var(--eltlms-ink); border-radius: var(--eltlms-radius); background: var(--eltlms-surface); }
+
+/* Cards that do not depend on the theme's group block style */
+.eltlms-enrol, .eltlms-continue { padding: clamp(1.25rem, 3vw, 2rem); background: var(--eltlms-surface); border: var(--eltlms-bw) solid var(--eltlms-ink); border-radius: var(--eltlms-radius); box-sizing: border-box; }
+.eltlms-enrol > .eltlms-cover, .eltlms-continue > .eltlms-cover { --eltlms-pad: clamp(1.25rem, 3vw, 2rem); margin: calc(-1 * var(--eltlms-pad)) calc(-1 * var(--eltlms-pad)) 0; aspect-ratio: 16 / 10; overflow: hidden; border-bottom: var(--eltlms-bw) solid var(--eltlms-ink); border-radius: calc(var(--eltlms-radius) - var(--eltlms-bw)) calc(var(--eltlms-radius) - var(--eltlms-bw)) 0 0; }
+.eltlms-continue > .eltlms-cover { aspect-ratio: 3 / 1; margin-bottom: .75rem; }
+.eltlms-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.eltlms-btn-small:hover { background: var(--eltlms-ink); color: var(--eltlms-base); }
+.eltlms-dash { padding-block: var(--wp--preset--spacing--60, 4rem); }

@@ -1,0 +1,33 @@
+/* eLearningTheme LMS admin: stays close to native WordPress. */
+.eltlms-b-section { border: 1px solid #c3c4c7; background: #fff; padding: 8px 12px; margin: 0 0 12px; }
+.eltlms-b-section > p { display: flex; align-items: center; gap: 8px; margin: 0 0 8px; }
+.eltlms-b-items { min-height: 32px; margin: 0; padding: 4px; background: #f6f7f7; border: 1px dashed #c3c4c7; }
+.eltlms-b-item { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 4px 0; padding: 6px 8px; background: #fff; border: 1px solid #dcdcde; }
+.eltlms-b-handle, .eltlms-b-shandle { cursor: move; color: #8c8f94; }
+.eltlms-b-type { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: #50575e; min-width: 48px; }
+.eltlms-b-preview { margin-left: auto; }
+.eltlms-b-placeholder { height: 34px; margin: 4px 0; background: #f0f6fc; border: 1px dashed #2271b1; }
+.eltlms-b-add { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.eltlms-q { border: 1px solid #c3c4c7; background: #fff; padding: 8px 12px 4px; margin: 0 0 12px; }
+.eltlms-q legend { font-weight: 600; padding: 0 4px; }
+.eltlms-opts { margin-left: 1.5em; }
+.eltlms-opts li { display: flex; align-items: center; gap: 6px; }
+
+/* Courses › Students */
+.eltlms-students__pick, .eltlms-students__search { margin: 12px 0; display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.eltlms-students__add { background: #fff; border: 1px solid #c3c4c7; padding: 4px 16px 12px; margin: 16px 0 8px; max-width: 760px; }
+.eltlms-students__add h2 { font-size: 14px; }
+.eltlms-students__add form { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.eltlms-students__add .description { flex-basis: 100%; }
+.eltlms-students__table td { vertical-align: middle; }
+.eltlms-students__bar { display: inline-block; width: 80px; height: 8px; background: #e0e0e0; border-radius: 4px; overflow: hidden; vertical-align: middle; margin-right: 6px; }
+.eltlms-students__bar span { display: block; height: 100%; background: #2271b1; }
+.eltlms-students__remove { color: #b32d2e; }
+
+.eltlms-q:not(.is-choice) .eltlms-q-choice { display: none; }
+.eltlms-students__import { margin-top: 12px; border-top: 1px solid #dcdcde; padding-top: 8px; }
+.eltlms-students__import summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+.eltlms-students__import form { display: block; }
+.eltlms-students__actions { white-space: nowrap; text-align: right; }
+.eltlms-students__actions form { display: inline; }
+.eltlms-students__actions form + form { margin-left: 12px; }

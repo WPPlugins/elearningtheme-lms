@@ -1,0 +1,735 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: elearningtheme-lms 0.1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hu_HU\n"
+"X-Domain: elearningtheme-lms\n"
+
+msgid "This form has expired. Go back, reload the page and try again."
+msgstr "Ez az űrlap lejárt. Lépj vissza, töltsd újra az oldalt, és próbáld újra."
+
+msgid "Remove this section? Its lessons stay in WordPress, only the link to this course is removed."
+msgstr "Eltávolítod ezt a szakaszt? A leckék megmaradnak a WordPressben, csak a kurzushoz tartozásuk szűnik meg."
+
+msgid "This item is already in the curriculum."
+msgstr "Ez az elem már szerepel a tananyagban."
+
+msgid "Section %d"
+msgstr "%d. szakasz"
+
+msgid "Curriculum"
+msgstr "Tananyag"
+
+msgid "Course details"
+msgstr "Kurzus adatai"
+
+msgid "Lesson settings"
+msgstr "Lecke beállításai"
+
+msgid "Questions"
+msgstr "Kérdések"
+
+msgid "Quiz"
+msgstr "Kvíz"
+
+msgid "Lesson"
+msgstr "Lecke"
+
+msgid "(no title)"
+msgstr "(cím nélkül)"
+
+msgid "draft"
+msgstr "vázlat"
+
+msgid "Free preview"
+msgstr "Ingyenes előnézet"
+
+msgid "Remove"
+msgstr "Eltávolítás"
+
+msgid "Section 1"
+msgstr "1. szakasz"
+
+msgid "Drag lessons and quizzes to reorder them. Sections are numbered automatically."
+msgstr "A leckéket és kvízeket húzással rendezheted át. A szakaszok számozása automatikus."
+
+msgid "Section title"
+msgstr "Szakasz címe"
+
+msgid "Remove section"
+msgstr "Szakasz eltávolítása"
+
+msgid "Add to the last section:"
+msgstr "Hozzáadás az utolsó szakaszhoz:"
+
+msgid "Choose a lesson or quiz"
+msgstr "Válassz leckét vagy kvízt"
+
+msgid "Add"
+msgstr "Hozzáadás"
+
+msgid "Add section"
+msgstr "Új szakasz"
+
+msgid "Create a lesson"
+msgstr "Új lecke"
+
+msgid "Create a quiz"
+msgstr "Új kvíz"
+
+msgid "Level"
+msgstr "Szint"
+
+msgid "Beginner"
+msgstr "Kezdő"
+
+msgid "Duration"
+msgstr "Időtartam"
+
+msgid "What you’ll learn (one per line)"
+msgstr "Mit tanulsz meg (soronként egyet)"
+
+msgid "Course"
+msgstr "Kurzus"
+
+msgid "Not in a course yet. Add it in the course’s curriculum."
+msgstr "Még nincs kurzusban. Add hozzá a kurzus tananyagához."
+
+msgid "Type"
+msgstr "Típus"
+
+msgid "Video"
+msgstr "Videó"
+
+msgid "Text"
+msgstr "Szöveg"
+
+msgid "Video URL (YouTube, Vimeo or an .mp4 file)"
+msgstr "Videó URL (YouTube, Vimeo vagy .mp4 fájl)"
+
+msgid "Free preview: anyone can open this lesson"
+msgstr "Ingyenes előnézet: bárki megnyithatja ezt a leckét"
+
+msgid "Question"
+msgstr "Kérdés"
+
+msgid "Write the question"
+msgstr "Írd be a kérdést"
+
+msgid "Answers: mark the correct one. Leave unused lines empty. For true/false, use two answers."
+msgstr "Válaszok: jelöld meg a helyeset. A fölösleges sorokat hagyd üresen. Igaz/hamis kérdéshez két válasz kell."
+
+msgid "Correct answer"
+msgstr "Helyes válasz"
+
+msgid "Remove question"
+msgstr "Kérdés törlése"
+
+msgid "Add question"
+msgstr "Új kérdés"
+
+msgid "The correct answers are kept on the server and never sent to the student’s browser."
+msgstr "A helyes válaszok a szerveren maradnak, és sosem jutnak el a diák böngészőjébe."
+
+msgid "Pass mark (%)"
+msgstr "Sikeres teljesítés (%)"
+
+msgid "Students"
+msgstr "Diákok"
+
+msgid "Courses"
+msgstr "Kurzusok"
+
+msgid "Course header"
+msgstr "Kurzus fejléc"
+
+msgid "Enrol box"
+msgstr "Jelentkezési doboz"
+
+msgid "What you’ll learn"
+msgstr "Mit tanulsz meg"
+
+msgid "Course contents sidebar"
+msgstr "Kurzustartalom oldalsáv"
+
+msgid "Lesson header"
+msgstr "Lecke fejléc"
+
+msgid "Lesson video"
+msgstr "Lecke videó"
+
+msgid "Lesson navigation"
+msgstr "Lecke navigáció"
+
+msgid "Student dashboard"
+msgstr "Diák irányítópult"
+
+msgid "Language switcher"
+msgstr "Nyelvválasztó"
+
+msgid "Course catalog"
+msgstr "Kurzuskatalógus"
+
+msgid "Add new course"
+msgstr "Új kurzus"
+
+msgid "Edit course"
+msgstr "Kurzus szerkesztése"
+
+msgid "All courses"
+msgstr "Összes kurzus"
+
+msgid "No courses yet."
+msgstr "Még nincs kurzus."
+
+msgid "Lessons"
+msgstr "Leckék"
+
+msgid "Add new lesson"
+msgstr "Új lecke"
+
+msgid "Edit lesson"
+msgstr "Lecke szerkesztése"
+
+msgid "Quizzes"
+msgstr "Kvízek"
+
+msgid "Add new quiz"
+msgstr "Új kvíz"
+
+msgid "Edit quiz"
+msgstr "Kvíz szerkesztése"
+
+msgid "Course categories"
+msgstr "Kurzuskategóriák"
+
+msgid "Course category"
+msgstr "Kurzuskategória"
+
+msgid "Single choice"
+msgstr "Egy helyes válasz"
+
+msgid "My learning"
+msgstr "Tanulásom"
+
+msgid "Language"
+msgstr "Nyelv"
+
+msgid "Languages"
+msgstr "Nyelvek"
+
+msgid "Languages saved."
+msgstr "Nyelvek elmentve."
+
+msgid "Let visitors and students choose their language. The buttons, labels and emails of your school follow their choice; your course titles and lessons stay as you wrote them. The admin stays in your site language."
+msgstr "Engedd, hogy a látogatók és a tanulók nyelvet válasszanak. Az iskolád gombjai, feliratai és e-mailjei követik a választásukat; a kurzusok címe és a leckék úgy maradnak, ahogy megírtad őket. Az admin felület a webhely nyelvén marad."
+
+msgid "Languages on offer"
+msgstr "Választható nyelvek"
+
+msgid "site language"
+msgstr "a webhely nyelve"
+
+msgid "Tick at least one more language to switch this on. WordPress downloads its own translation for each one, so dates are right too."
+msgstr "Jelölj be legalább még egy nyelvet a bekapcsoláshoz. A WordPress mindegyikhez letölti a saját fordítását, így a dátumok is jók lesznek."
+
+msgid "Switcher"
+msgstr "Nyelvválasztó"
+
+msgid "Show the language switcher in the site header, after the menu"
+msgstr "A nyelvválasztó megjelenítése a webhely fejlécében, a menü után"
+
+msgid "It is always on the My learning page. To put it somewhere else, add the “Language switcher” block in the Site Editor."
+msgstr "A Tanulásom oldalon mindig ott van. Ha máshová tennéd, add hozzá a „Nyelvválasztó” blokkot a Webhelyszerkesztőben."
+
+msgid "You are not allowed to do this."
+msgstr "Ehhez nincs jogosultságod."
+
+msgid "You get this email because you have an account at %s."
+msgstr "Azért kapod ezt a levelet, mert fiókod van itt: %s."
+
+msgid "You’re enrolled: %s"
+msgstr "Jelentkezésed rögzítve: %s"
+
+msgid "Your first lesson of %s is ready."
+msgstr "A(z) %s első leckéje vár rád."
+
+msgid "Enrolment confirmed"
+msgstr "Jelentkezés visszaigazolva"
+
+msgid "Welcome, %s."
+msgstr "Üdv, %s!"
+
+msgid "You’re now enrolled in %s. Your progress is saved as you go, so you can stop after any lesson and pick up where you left off."
+msgstr "Mostantól a(z) %s kurzus résztvevője vagy. A haladásod folyamatosan mentődik, így bármelyik lecke után megállhatsz, és ott folytathatod, ahol abbahagytad."
+
+msgid "Start the first lesson"
+msgstr "Kezdd az első leckével"
+
+msgid "Course page"
+msgstr "Kurzus oldala"
+
+msgid "Find your next course"
+msgstr "Keresd meg a következő kurzusodat"
+
+msgid "You completed %s"
+msgstr "Teljesítetted: %s"
+
+msgid "Every lesson done. Well done."
+msgstr "Minden lecke kész. Szép munka."
+
+msgid "Course completed"
+msgstr "Kurzus teljesítve"
+
+msgid "Well done, %s."
+msgstr "Szép munka, %s!"
+
+msgid "You finished every lesson of %s. That takes patience, and it shows."
+msgstr "A(z) %s minden leckéjét elvégezted. Ehhez türelem kell, és meg is látszik."
+
+msgid "Completed"
+msgstr "Teljesítve"
+
+msgid "Someone asked to reset your password."
+msgstr "Valaki új jelszót kért a fiókodhoz."
+
+msgid "Password reset"
+msgstr "Új jelszó"
+
+msgid "Choose a new password"
+msgstr "Válassz új jelszót"
+
+msgid "Someone asked for a new password for the account %s. If that was you, use the button below. The link works once."
+msgstr "Valaki új jelszót kért a(z) %s fiókhoz. Ha te voltál, használd az alábbi gombot. A link egyszer használható."
+
+msgid "Set a new password"
+msgstr "Új jelszó beállítása"
+
+msgid "If you didn’t ask for this, ignore this email; your password stays the same."
+msgstr "Ha nem te kérted, hagyd figyelmen kívül ezt a levelet; a jelszavad nem változik."
+
+msgid "Your account at %s is ready."
+msgstr "Elkészült a fiókod itt: %s."
+
+msgid "Your account"
+msgstr "Fiókod"
+
+msgid "An account was made for you at %s. Choose a password to log in and start learning."
+msgstr "Fiókot hoztak létre neked itt: %s. Válassz jelszót, hogy belépj és elkezdd a tanulást."
+
+msgid "Username"
+msgstr "Felhasználónév"
+
+msgid "Choose your password"
+msgstr "Válassz jelszót"
+
+msgid "The link works once. If it has expired, use “Lost your password?” on the login page."
+msgstr "A link egyszer használható. Ha lejárt, a belépő oldalon kattints az „Elfelejtett jelszó?” linkre."
+
+msgid "Your account at %s"
+msgstr "Fiókod itt: %s"
+
+msgid "Teacher"
+msgstr "Tanár"
+
+msgid "%1$d, including %2$d quizzes"
+msgstr "%1$d, ebből %2$d kvíz"
+
+msgid "Course completed."
+msgstr "Kurzus teljesítve."
+
+msgid "You finished every lesson of %s. Well done."
+msgstr "A(z) %s minden leckéjét elvégezted. Szép munka."
+
+msgid "%1$d of %2$d complete · %3$d%%"
+msgstr "%1$d / %2$d kész · %3$d%%"
+
+msgid "Course progress"
+msgstr "Haladás a kurzusban"
+
+msgid "Review the course"
+msgstr "Kurzus áttekintése"
+
+msgid "Continue where you left off"
+msgstr "Folytasd, ahol abbahagytad"
+
+msgid "Free"
+msgstr "Ingyenes"
+
+msgid "Enrol for free"
+msgstr "Jelentkezz ingyen"
+
+msgid "Log in to enrol"
+msgstr "Jelentkezéshez lépj be"
+
+msgid "New here? %s"
+msgstr "Új vagy itt? %s"
+
+msgid "Create a free account"
+msgstr "Regisztrálj ingyen"
+
+msgid "Watch a free preview lesson"
+msgstr "Nézz meg egy ingyenes mintaleckét"
+
+msgid "Lessons are on their way."
+msgstr "A leckék hamarosan érkeznek."
+
+msgid "Preview"
+msgstr "Előnézet"
+
+msgid "Locked"
+msgstr "Zárolva"
+
+msgid "Lesson %1$s of %2$d"
+msgstr "%1$s. lecke / %2$d"
+
+msgid "Course contents"
+msgstr "Kurzus tartalma"
+
+msgid "Reading"
+msgstr "Olvasnivaló"
+
+msgid "Open the video"
+msgstr "Videó megnyitása"
+
+msgid "Enrol in the course to open this lesson."
+msgstr "Jelentkezz a kurzusra, hogy megnyithasd ezt a leckét."
+
+msgid "Log in and enrol in the course to open this lesson."
+msgstr "Lépj be és jelentkezz a kurzusra, hogy megnyithasd ezt a leckét."
+
+msgid "Go to the course page"
+msgstr "Ugrás a kurzus oldalára"
+
+msgid "This lesson is locked"
+msgstr "Ez a lecke zárolva van"
+
+msgid "Mark as complete"
+msgstr "Megjelölés késznek"
+
+msgid "← Previous"
+msgstr "← Előző"
+
+msgid "Next →"
+msgstr "Következő →"
+
+msgid "This quiz has no questions yet."
+msgstr "Ebben a kvízben még nincs kérdés."
+
+msgid "Pass mark"
+msgstr "Sikerhez kell"
+
+msgid "%1$d of %2$d"
+msgstr "%1$d / %2$d"
+
+msgid "Time"
+msgstr "Idő"
+
+msgid "No limit"
+msgstr "Nincs korlát"
+
+msgid "Attempts"
+msgstr "Próbálkozások"
+
+msgid "Unlimited"
+msgstr "Korlátlan"
+
+msgid "Enrol in the course to take this quiz and save your score."
+msgstr "Jelentkezz a kurzusra, hogy kitölthesd a kvízt és elmentsd az eredményed."
+
+msgid "You have used all your attempts for this quiz."
+msgstr "Ehhez a kvízhez az összes próbálkozásodat felhasználtad."
+
+msgid "Start the quiz first, then answer the questions."
+msgstr "Előbb indítsd el a kvízt, utána válaszolj a kérdésekre."
+
+msgid "Question %1$d of %2$d"
+msgstr "%1$d. kérdés / %2$d"
+
+msgid "Answers are checked on the server. You can try as often as you like."
+msgstr "A válaszokat a szerver ellenőrzi. Annyiszor próbálkozhatsz, ahányszor csak akarsz."
+
+msgid "Check my answers"
+msgstr "Válaszok ellenőrzése"
+
+msgid "Waiting for review"
+msgstr "Értékelésre vár"
+
+msgid "Your answers are with your teacher"
+msgstr "A válaszaid a tanárodnál vannak"
+
+msgid "The choice questions are already checked: %1$d of %2$d correct so far. Your teacher reviews the written answers, and you get an email when the result is ready."
+msgstr "A választós kérdéseket már ellenőriztük: eddig %2$d-ből %1$d helyes. A kifejtős válaszokat a tanárod értékeli, és e-mailt kapsz, amikor kész az eredmény."
+
+msgid "Time ran out"
+msgstr "Lejárt az idő"
+
+msgid "The time limit passed before the answers were sent, so this attempt is not counted as passed."
+msgstr "Az idő lejárt, mielőtt a válaszokat elküldted volna, ezért ez a próbálkozás nem számít sikeresnek."
+
+msgid "Passed"
+msgstr "Sikeres"
+
+msgid "Not passed yet"
+msgstr "Még nem sikerült"
+
+msgid "%1$d of %2$d correct"
+msgstr "%1$d / %2$d helyes"
+
+msgid "You need %d correct answers to pass."
+msgstr "A sikerhez %d helyes válasz kell."
+
+msgid "Correct"
+msgstr "Helyes"
+
+msgid "Incorrect"
+msgstr "Hibás"
+
+msgid "none"
+msgstr "nincs"
+
+msgid "Your answer: %s"
+msgstr "A válaszod: %s"
+
+msgid "Correct answer: %s"
+msgstr "Helyes válasz: %s"
+
+msgid "(no answer)"
+msgstr "(nincs válasz)"
+
+msgid "Teacher’s feedback:"
+msgstr "A tanár visszajelzése:"
+
+msgid "Back to the course"
+msgstr "Vissza a kurzushoz"
+
+msgid "Try again"
+msgstr "Próbáld újra"
+
+msgid "Log in to see your courses and progress."
+msgstr "Lépj be, hogy lásd a kurzusaidat és a haladásodat."
+
+msgid "Log in"
+msgstr "Belépés"
+
+msgid "Good to see you, %s."
+msgstr "Jó, hogy itt vagy, %s."
+
+msgid "You haven’t enrolled in a course yet."
+msgstr "Még nem jelentkeztél egy kurzusra sem."
+
+msgid "Browse courses"
+msgstr "Kurzusok böngészése"
+
+msgid "Continue learning"
+msgstr "Tanulás folytatása"
+
+msgid "%1$d of %2$d lessons"
+msgstr "%1$d / %2$d lecke"
+
+msgid "Continue lesson"
+msgstr "Lecke folytatása"
+
+msgid "In progress"
+msgstr "Folyamatban"
+
+msgid "Not started"
+msgstr "Nincs elkezdve"
+
+msgid "Review"
+msgstr "Áttekintés"
+
+msgid "Continue"
+msgstr "Folytatás"
+
+msgid "Start course"
+msgstr "Kurzus indítása"
+
+msgid "Completed %s"
+msgstr "Teljesítve: %s"
+
+msgid "My courses"
+msgstr "Kurzusaim"
+
+msgid "Account details"
+msgstr "Fiókadatok"
+
+msgid "Log out"
+msgstr "Kilépés"
+
+msgid "All"
+msgstr "Mind"
+
+msgid "Search courses"
+msgstr "Kurzusok keresése"
+
+msgid "No courses match."
+msgstr "Nincs találat."
+
+msgid "Try another word or category."
+msgstr "Próbálj másik szót vagy kategóriát."
+
+msgid "New courses will appear here."
+msgstr "Az új kurzusok itt jelennek meg."
+
+msgid "No. %s"
+msgstr "%s."
+
+msgid "%d question"
+msgid_plural "%d questions"
+msgstr[0] "%d kérdés"
+msgstr[1] "%d kérdés"
+
+msgid "%d lesson"
+msgid_plural "%d lessons"
+msgstr[0] "%d lecke"
+msgstr[1] "%d lecke"
+
+msgid "You are not allowed to manage the students of this course."
+msgstr "Nincs jogod ennek a kurzusnak a tanulóit kezelni."
+
+msgid "Student added. They got the enrolment email and can start straight away."
+msgstr "Tanuló hozzáadva. Megkapta a beiratkozási e-mailt, és azonnal kezdheti."
+
+msgid "Student removed from the course. Their progress is kept, in case you add them again."
+msgstr "Tanuló eltávolítva a kurzusból. A haladása megmarad, ha újra hozzáadnád."
+
+msgid "No user with the email or username “%s”. Create the account under Users › Add New User first, then add it here."
+msgstr "Nincs felhasználó ezzel az e-mail-címmel vagy felhasználónévvel: „%s”. Előbb hozd létre a fiókot a Felhasználók › Új felhasználó menüben, utána add hozzá itt."
+
+msgid "Progress reset. The student starts the course again from the first lesson; their earlier quiz attempts no longer count."
+msgstr "Haladás nullázva. A tanuló az első leckétől újrakezdi a kurzust; a korábbi kvízpróbálkozásai már nem számítanak."
+
+msgid "This person is already enrolled in the course."
+msgstr "Ez a személy már be van iratkozva a kurzusra."
+
+msgid "Something went wrong. Please try again."
+msgstr "Valami hiba történt. Próbáld újra."
+
+msgid "Add New User"
+msgstr "Új felhasználó"
+
+msgid "The file is too large. Split it into files of up to 2 MB."
+msgstr "A fájl túl nagy. Oszd fel legfeljebb 2 MB-os fájlokra."
+
+msgid "Please choose a CSV file (.csv)."
+msgstr "Válassz egy CSV-fájlt (.csv)."
+
+msgid "Skipped lines without a valid email address or account: %s."
+msgstr "Kihagyott sorok érvényes e-mail-cím vagy fiók nélkül: %s."
+
+msgid "No courses yet. Create a course first, then manage its students here."
+msgstr "Még nincs kurzus. Előbb hozz létre egyet, utána itt kezelheted a tanulóit."
+
+msgid "Show"
+msgstr "Mutasd"
+
+msgid "Add a student"
+msgstr "Tanuló hozzáadása"
+
+msgid "Email or username"
+msgstr "E-mail-cím vagy felhasználónév"
+
+msgid "Add to course"
+msgstr "Hozzáadás a kurzushoz"
+
+msgid "The person needs an account on this site. Students you add here get the enrolment email, and paid courses are opened without payment."
+msgstr "A személynek fiókkal kell rendelkeznie ezen az oldalon. Az itt hozzáadott tanulók megkapják a beiratkozási e-mailt, a fizetős kurzusok pedig fizetés nélkül nyílnak meg nekik."
+
+msgid "Import students from a CSV file"
+msgstr "Tanulók importálása CSV-fájlból"
+
+msgid "One student per line: an email address and, if you like, a name, separated by a comma or a semicolon. A header line is fine. You can save this from Excel or Google Sheets as CSV."
+msgstr "Soronként egy tanuló: egy e-mail-cím és ha szeretnéd, egy név, vesszővel vagy pontosvesszővel elválasztva. Fejléc sor lehet benne. Excelből vagy Google Táblázatokból CSV-ként mentheted."
+
+msgid "CSV file"
+msgstr "CSV-fájl"
+
+msgid "Create accounts for new email addresses and email them a link to set a password"
+msgstr "Fiók létrehozása az új e-mail-címekhez, és jelszóbeállító link küldése nekik"
+
+msgid "Import and enrol"
+msgstr "Importálás és beiratkoztatás"
+
+msgid "Search students"
+msgstr "Tanulók keresése"
+
+msgid "No students match your search."
+msgstr "Nincs a keresésnek megfelelő tanuló."
+
+msgid "No students in this course yet."
+msgstr "Ebben a kurzusban még nincs tanuló."
+
+msgid "Student"
+msgstr "Tanuló"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Enrolled"
+msgstr "Beiratkozott"
+
+msgid "Progress"
+msgstr "Haladás"
+
+msgid "Actions"
+msgstr "Műveletek"
+
+msgid "%1$d of %2$d · %3$d%%"
+msgstr "%1$d / %2$d · %3$d%%"
+
+msgid "Reset this student’s progress? They will take every lesson and quiz again."
+msgstr "Nullázod a tanuló haladását? Minden leckét és kvízt újra el kell végeznie."
+
+msgid "Reset the progress of %s"
+msgstr "%s haladásának nullázása"
+
+msgid "Reset progress"
+msgstr "Haladás nullázása"
+
+msgid "Remove %s from the course"
+msgstr "%s eltávolítása a kurzusból"
+
+msgid "%d student added to the course."
+msgid_plural "%d students added to the course."
+msgstr[0] "%d tanuló hozzáadva a kurzushoz."
+msgstr[1] "%d tanuló hozzáadva a kurzushoz."
+
+msgid "%d new account was created; we emailed a link to set a password."
+msgid_plural "%d new accounts were created; we emailed each a link to set a password."
+msgstr[0] "%d új fiók jött létre; e-mailben elküldtük a jelszóbeállító linket."
+msgstr[1] "%d új fiók jött létre; mindegyiknek elküldtük e-mailben a jelszóbeállító linket."
+
+msgid "%d was already enrolled."
+msgid_plural "%d were already enrolled."
+msgstr[0] "%d már be volt iratkozva."
+msgstr[1] "%d már be volt iratkozva."
+
+msgid "%d student"
+msgid_plural "%d students"
+msgstr[0] "%d tanuló"
+msgstr[1] "%d tanuló"
+
+msgid "Single course"
+msgstr "Egy kurzus"
+
+msgid "A course page with the enrol box and the curriculum."
+msgstr "Kurzusoldal jelentkezési dobozzal és tananyaggal."
+
+msgid "Single lesson"
+msgstr "Egy lecke"
+
+msgid "A lesson with the course contents, video, text and navigation."
+msgstr "Lecke a kurzus tartalmával, videóval, szöveggel és navigációval."
+
+msgid "Single quiz"
+msgstr "Egy kvíz"
+
+msgid "A quiz with the course contents and the questions."
+msgstr "Kvíz a kurzus tartalmával és a kérdésekkel."
+
+msgid "All courses, with categories and search."
+msgstr "Az összes kurzus kategóriákkal és kereséssel."

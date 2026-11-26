@@ -1,0 +1,735 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: elearningtheme-lms 0.1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: \n"
+"X-Domain: elearningtheme-lms\n"
+
+msgid "This form has expired. Go back, reload the page and try again."
+msgstr ""
+
+msgid "Remove this section? Its lessons stay in WordPress, only the link to this course is removed."
+msgstr ""
+
+msgid "This item is already in the curriculum."
+msgstr ""
+
+msgid "Section %d"
+msgstr ""
+
+msgid "Curriculum"
+msgstr ""
+
+msgid "Course details"
+msgstr ""
+
+msgid "Lesson settings"
+msgstr ""
+
+msgid "Questions"
+msgstr ""
+
+msgid "Quiz"
+msgstr ""
+
+msgid "Lesson"
+msgstr ""
+
+msgid "(no title)"
+msgstr ""
+
+msgid "draft"
+msgstr ""
+
+msgid "Free preview"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Section 1"
+msgstr ""
+
+msgid "Drag lessons and quizzes to reorder them. Sections are numbered automatically."
+msgstr ""
+
+msgid "Section title"
+msgstr ""
+
+msgid "Remove section"
+msgstr ""
+
+msgid "Add to the last section:"
+msgstr ""
+
+msgid "Choose a lesson or quiz"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add section"
+msgstr ""
+
+msgid "Create a lesson"
+msgstr ""
+
+msgid "Create a quiz"
+msgstr ""
+
+msgid "Level"
+msgstr ""
+
+msgid "Beginner"
+msgstr ""
+
+msgid "Duration"
+msgstr ""
+
+msgid "What you’ll learn (one per line)"
+msgstr ""
+
+msgid "Course"
+msgstr ""
+
+msgid "Not in a course yet. Add it in the course’s curriculum."
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Video URL (YouTube, Vimeo or an .mp4 file)"
+msgstr ""
+
+msgid "Free preview: anyone can open this lesson"
+msgstr ""
+
+msgid "Question"
+msgstr ""
+
+msgid "Write the question"
+msgstr ""
+
+msgid "Answers: mark the correct one. Leave unused lines empty. For true/false, use two answers."
+msgstr ""
+
+msgid "Correct answer"
+msgstr ""
+
+msgid "Remove question"
+msgstr ""
+
+msgid "Add question"
+msgstr ""
+
+msgid "The correct answers are kept on the server and never sent to the student’s browser."
+msgstr ""
+
+msgid "Pass mark (%)"
+msgstr ""
+
+msgid "Students"
+msgstr ""
+
+msgid "Courses"
+msgstr ""
+
+msgid "Course header"
+msgstr ""
+
+msgid "Enrol box"
+msgstr ""
+
+msgid "What you’ll learn"
+msgstr ""
+
+msgid "Course contents sidebar"
+msgstr ""
+
+msgid "Lesson header"
+msgstr ""
+
+msgid "Lesson video"
+msgstr ""
+
+msgid "Lesson navigation"
+msgstr ""
+
+msgid "Student dashboard"
+msgstr ""
+
+msgid "Language switcher"
+msgstr ""
+
+msgid "Course catalog"
+msgstr ""
+
+msgid "Add new course"
+msgstr ""
+
+msgid "Edit course"
+msgstr ""
+
+msgid "All courses"
+msgstr ""
+
+msgid "No courses yet."
+msgstr ""
+
+msgid "Lessons"
+msgstr ""
+
+msgid "Add new lesson"
+msgstr ""
+
+msgid "Edit lesson"
+msgstr ""
+
+msgid "Quizzes"
+msgstr ""
+
+msgid "Add new quiz"
+msgstr ""
+
+msgid "Edit quiz"
+msgstr ""
+
+msgid "Course categories"
+msgstr ""
+
+msgid "Course category"
+msgstr ""
+
+msgid "Single choice"
+msgstr ""
+
+msgid "My learning"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Languages"
+msgstr ""
+
+msgid "Languages saved."
+msgstr ""
+
+msgid "Let visitors and students choose their language. The buttons, labels and emails of your school follow their choice; your course titles and lessons stay as you wrote them. The admin stays in your site language."
+msgstr ""
+
+msgid "Languages on offer"
+msgstr ""
+
+msgid "site language"
+msgstr ""
+
+msgid "Tick at least one more language to switch this on. WordPress downloads its own translation for each one, so dates are right too."
+msgstr ""
+
+msgid "Switcher"
+msgstr ""
+
+msgid "Show the language switcher in the site header, after the menu"
+msgstr ""
+
+msgid "It is always on the My learning page. To put it somewhere else, add the “Language switcher” block in the Site Editor."
+msgstr ""
+
+msgid "You are not allowed to do this."
+msgstr ""
+
+msgid "You get this email because you have an account at %s."
+msgstr ""
+
+msgid "You’re enrolled: %s"
+msgstr ""
+
+msgid "Your first lesson of %s is ready."
+msgstr ""
+
+msgid "Enrolment confirmed"
+msgstr ""
+
+msgid "Welcome, %s."
+msgstr ""
+
+msgid "You’re now enrolled in %s. Your progress is saved as you go, so you can stop after any lesson and pick up where you left off."
+msgstr ""
+
+msgid "Start the first lesson"
+msgstr ""
+
+msgid "Course page"
+msgstr ""
+
+msgid "Find your next course"
+msgstr ""
+
+msgid "You completed %s"
+msgstr ""
+
+msgid "Every lesson done. Well done."
+msgstr ""
+
+msgid "Course completed"
+msgstr ""
+
+msgid "Well done, %s."
+msgstr ""
+
+msgid "You finished every lesson of %s. That takes patience, and it shows."
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Someone asked to reset your password."
+msgstr ""
+
+msgid "Password reset"
+msgstr ""
+
+msgid "Choose a new password"
+msgstr ""
+
+msgid "Someone asked for a new password for the account %s. If that was you, use the button below. The link works once."
+msgstr ""
+
+msgid "Set a new password"
+msgstr ""
+
+msgid "If you didn’t ask for this, ignore this email; your password stays the same."
+msgstr ""
+
+msgid "Your account at %s is ready."
+msgstr ""
+
+msgid "Your account"
+msgstr ""
+
+msgid "An account was made for you at %s. Choose a password to log in and start learning."
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Choose your password"
+msgstr ""
+
+msgid "The link works once. If it has expired, use “Lost your password?” on the login page."
+msgstr ""
+
+msgid "Your account at %s"
+msgstr ""
+
+msgid "Teacher"
+msgstr ""
+
+msgid "%1$d, including %2$d quizzes"
+msgstr ""
+
+msgid "Course completed."
+msgstr ""
+
+msgid "You finished every lesson of %s. Well done."
+msgstr ""
+
+msgid "%1$d of %2$d complete · %3$d%%"
+msgstr ""
+
+msgid "Course progress"
+msgstr ""
+
+msgid "Review the course"
+msgstr ""
+
+msgid "Continue where you left off"
+msgstr ""
+
+msgid "Free"
+msgstr ""
+
+msgid "Enrol for free"
+msgstr ""
+
+msgid "Log in to enrol"
+msgstr ""
+
+msgid "New here? %s"
+msgstr ""
+
+msgid "Create a free account"
+msgstr ""
+
+msgid "Watch a free preview lesson"
+msgstr ""
+
+msgid "Lessons are on their way."
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Lesson %1$s of %2$d"
+msgstr ""
+
+msgid "Course contents"
+msgstr ""
+
+msgid "Reading"
+msgstr ""
+
+msgid "Open the video"
+msgstr ""
+
+msgid "Enrol in the course to open this lesson."
+msgstr ""
+
+msgid "Log in and enrol in the course to open this lesson."
+msgstr ""
+
+msgid "Go to the course page"
+msgstr ""
+
+msgid "This lesson is locked"
+msgstr ""
+
+msgid "Mark as complete"
+msgstr ""
+
+msgid "← Previous"
+msgstr ""
+
+msgid "Next →"
+msgstr ""
+
+msgid "This quiz has no questions yet."
+msgstr ""
+
+msgid "Pass mark"
+msgstr ""
+
+msgid "%1$d of %2$d"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "No limit"
+msgstr ""
+
+msgid "Attempts"
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""
+
+msgid "Enrol in the course to take this quiz and save your score."
+msgstr ""
+
+msgid "You have used all your attempts for this quiz."
+msgstr ""
+
+msgid "Start the quiz first, then answer the questions."
+msgstr ""
+
+msgid "Question %1$d of %2$d"
+msgstr ""
+
+msgid "Answers are checked on the server. You can try as often as you like."
+msgstr ""
+
+msgid "Check my answers"
+msgstr ""
+
+msgid "Waiting for review"
+msgstr ""
+
+msgid "Your answers are with your teacher"
+msgstr ""
+
+msgid "The choice questions are already checked: %1$d of %2$d correct so far. Your teacher reviews the written answers, and you get an email when the result is ready."
+msgstr ""
+
+msgid "Time ran out"
+msgstr ""
+
+msgid "The time limit passed before the answers were sent, so this attempt is not counted as passed."
+msgstr ""
+
+msgid "Passed"
+msgstr ""
+
+msgid "Not passed yet"
+msgstr ""
+
+msgid "%1$d of %2$d correct"
+msgstr ""
+
+msgid "You need %d correct answers to pass."
+msgstr ""
+
+msgid "Correct"
+msgstr ""
+
+msgid "Incorrect"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "Your answer: %s"
+msgstr ""
+
+msgid "Correct answer: %s"
+msgstr ""
+
+msgid "(no answer)"
+msgstr ""
+
+msgid "Teacher’s feedback:"
+msgstr ""
+
+msgid "Back to the course"
+msgstr ""
+
+msgid "Try again"
+msgstr ""
+
+msgid "Log in to see your courses and progress."
+msgstr ""
+
+msgid "Log in"
+msgstr ""
+
+msgid "Good to see you, %s."
+msgstr ""
+
+msgid "You haven’t enrolled in a course yet."
+msgstr ""
+
+msgid "Browse courses"
+msgstr ""
+
+msgid "Continue learning"
+msgstr ""
+
+msgid "%1$d of %2$d lessons"
+msgstr ""
+
+msgid "Continue lesson"
+msgstr ""
+
+msgid "In progress"
+msgstr ""
+
+msgid "Not started"
+msgstr ""
+
+msgid "Review"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Start course"
+msgstr ""
+
+msgid "Completed %s"
+msgstr ""
+
+msgid "My courses"
+msgstr ""
+
+msgid "Account details"
+msgstr ""
+
+msgid "Log out"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Search courses"
+msgstr ""
+
+msgid "No courses match."
+msgstr ""
+
+msgid "Try another word or category."
+msgstr ""
+
+msgid "New courses will appear here."
+msgstr ""
+
+msgid "No. %s"
+msgstr ""
+
+msgid "%d question"
+msgid_plural "%d questions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%d lesson"
+msgid_plural "%d lessons"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You are not allowed to manage the students of this course."
+msgstr ""
+
+msgid "Student added. They got the enrolment email and can start straight away."
+msgstr ""
+
+msgid "Student removed from the course. Their progress is kept, in case you add them again."
+msgstr ""
+
+msgid "No user with the email or username “%s”. Create the account under Users › Add New User first, then add it here."
+msgstr ""
+
+msgid "Progress reset. The student starts the course again from the first lesson; their earlier quiz attempts no longer count."
+msgstr ""
+
+msgid "This person is already enrolled in the course."
+msgstr ""
+
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+msgid "Add New User"
+msgstr ""
+
+msgid "The file is too large. Split it into files of up to 2 MB."
+msgstr ""
+
+msgid "Please choose a CSV file (.csv)."
+msgstr ""
+
+msgid "Skipped lines without a valid email address or account: %s."
+msgstr ""
+
+msgid "No courses yet. Create a course first, then manage its students here."
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Add a student"
+msgstr ""
+
+msgid "Email or username"
+msgstr ""
+
+msgid "Add to course"
+msgstr ""
+
+msgid "The person needs an account on this site. Students you add here get the enrolment email, and paid courses are opened without payment."
+msgstr ""
+
+msgid "Import students from a CSV file"
+msgstr ""
+
+msgid "One student per line: an email address and, if you like, a name, separated by a comma or a semicolon. A header line is fine. You can save this from Excel or Google Sheets as CSV."
+msgstr ""
+
+msgid "CSV file"
+msgstr ""
+
+msgid "Create accounts for new email addresses and email them a link to set a password"
+msgstr ""
+
+msgid "Import and enrol"
+msgstr ""
+
+msgid "Search students"
+msgstr ""
+
+msgid "No students match your search."
+msgstr ""
+
+msgid "No students in this course yet."
+msgstr ""
+
+msgid "Student"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Enrolled"
+msgstr ""
+
+msgid "Progress"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "%1$d of %2$d · %3$d%%"
+msgstr ""
+
+msgid "Reset this student’s progress? They will take every lesson and quiz again."
+msgstr ""
+
+msgid "Reset the progress of %s"
+msgstr ""
+
+msgid "Reset progress"
+msgstr ""
+
+msgid "Remove %s from the course"
+msgstr ""
+
+msgid "%d student added to the course."
+msgid_plural "%d students added to the course."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%d new account was created; we emailed a link to set a password."
+msgid_plural "%d new accounts were created; we emailed each a link to set a password."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%d was already enrolled."
+msgid_plural "%d were already enrolled."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%d student"
+msgid_plural "%d students"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Single course"
+msgstr ""
+
+msgid "A course page with the enrol box and the curriculum."
+msgstr ""
+
+msgid "Single lesson"
+msgstr ""
+
+msgid "A lesson with the course contents, video, text and navigation."
+msgstr ""
+
+msgid "Single quiz"
+msgstr ""
+
+msgid "A quiz with the course contents and the questions."
+msgstr ""
+
+msgid "All courses, with categories and search."
+msgstr ""
